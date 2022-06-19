@@ -1,6 +1,6 @@
-import {DiScala} from "react-icons/Di"
+import { DiScala } from "react-icons/Di"
 import styled from "styled-components"
-import {Link} from "gatsby"
+import { Link } from "gatsby"
 
 export const FooterContainer = styled.div`
 background-color: #101522;
@@ -41,6 +41,7 @@ export const SocialLogo = styled(Link)`
 `
 export const SocialIcon = styled(DiScala)`
     margin-right: 10px;
+    color: white;
 `
 
 export const WebsiteRights = styled.small`
@@ -58,4 +59,17 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
     color: #fff;
     font-size: 24px;
+` 
+
+export const FooterContact = styled.div`
+    color: #fff;
+    font-size: 18px;
+    margin-left: 30px;
+    
+
+    >ul {
+        list-style: none;
+        display: inline-block;
+        position: relative;
+    }
 ` 

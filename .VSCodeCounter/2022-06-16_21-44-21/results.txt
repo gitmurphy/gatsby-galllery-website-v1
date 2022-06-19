@@ -1,0 +1,51 @@
+Date : 2022-06-16 21:44:21
+Directory : /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src
+Total : 19 files,  642 codes, 8 comments, 100 blanks, all 750 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| JavaScript       |         15 |        512 |          6 |         78 |        596 |
+| CSS              |          3 |         81 |          1 |         16 |         98 |
+| TypeScript React |          1 |         49 |          1 |          6 |         56 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                           | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                              |         19 |        642 |          8 |        100 |        750 |
+| components                                                                                     |         11 |        469 |          7 |         63 |        539 |
+| components/Footer                                                                              |          2 |         97 |          0 |         12 |        109 |
+| components/HeroSection                                                                         |          2 |         46 |          0 |          7 |         53 |
+| components/Navbar                                                                              |          2 |        157 |          0 |         17 |        174 |
+| pages                                                                                          |          7 |        151 |          1 |         33 |        185 |
+| templates                                                                                      |          1 |         22 |          0 |          4 |         26 |
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                                       | language         | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/ButtonElements.js           | JavaScript       |         24 |          0 |          3 |         27 |
+| /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/Footer/FooterElements.js    | JavaScript       |         53 |          0 |          8 |         61 |
+| /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/Footer/index.js             | JavaScript       |         44 |          0 |          4 |         48 |
+| /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/HeroSection/HeroSection.css | CSS              |         30 |          0 |          4 |         34 |
+| /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/HeroSection/index.js        | JavaScript       |         16 |          0 |          3 |         19 |
+| /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/Navbar/NavbarElements.js    | JavaScript       |         95 |          0 |         10 |        105 |
+| /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/Navbar/index.js             | JavaScript       |         62 |          0 |          7 |         69 |
+| /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/index.module.css            | CSS              |         44 |          1 |         10 |         55 |
+| /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/layout.css                  | CSS              |          7 |          0 |          2 |          9 |
+| /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/layout.js                   | JavaScript       |         18 |          0 |          4 |         22 |
+| /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/seo.js                      | JavaScript       |         76 |          6 |          8 |         90 |
+| /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/pages/404.js                           | JavaScript       |         11 |          0 |          4 |         15 |
+| /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/pages/about.js                         | JavaScript       |         10 |          0 |          5 |         15 |
+| /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/pages/contact.js                       | JavaScript       |         10 |          0 |          5 |         15 |
+| /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/pages/gallery.js                       | JavaScript       |         10 |          0 |          5 |         15 |
+| /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/pages/index.js                         | JavaScript       |         11 |          0 |          3 |         14 |
+| /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/pages/using-ssr.js                     | JavaScript       |         50 |          0 |          5 |         55 |
+| /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/pages/using-typescript.tsx             | TypeScript React |         49 |          1 |          6 |         56 |
+| /Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/templates/using-dsg.js                 | JavaScript       |         22 |          0 |          4 |         26 |
+| Total                                                                                          |                  |        642 |          8 |        100 |        750 |
++------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+

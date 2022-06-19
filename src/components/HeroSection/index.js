@@ -5,10 +5,10 @@ import {Button} from '../ButtonElements'
 function HeroSection() {
     return (
         <div className="hero-container">
-            <h1>Find Your Next Love Today</h1>
+            <h1>Maeve O'Byrne Art</h1>
             <div className="hero-btns">
-                <Button fontBig big primary>
-                    Enquire Now
+                <Button big primary>
+                    Enquire Today
                 </Button>
             </div>
         </div>

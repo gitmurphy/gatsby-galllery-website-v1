@@ -1,0 +1,21 @@
+"filename", "language", "JavaScript", "CSS", "TypeScript React", "comment", "blank", "total"
+"/Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/ButtonElements.js", "JavaScript", 24, 0, 0, 0, 3, 27
+"/Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/Footer/FooterElements.js", "JavaScript", 53, 0, 0, 0, 8, 61
+"/Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/Footer/index.js", "JavaScript", 44, 0, 0, 0, 4, 48
+"/Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/HeroSection/HeroSection.css", "CSS", 0, 30, 0, 0, 4, 34
+"/Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/HeroSection/index.js", "JavaScript", 16, 0, 0, 0, 3, 19
+"/Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/Navbar/NavbarElements.js", "JavaScript", 95, 0, 0, 0, 10, 105
+"/Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/Navbar/index.js", "JavaScript", 62, 0, 0, 0, 7, 69
+"/Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/index.module.css", "CSS", 0, 44, 0, 1, 10, 55
+"/Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/layout.css", "CSS", 0, 7, 0, 0, 2, 9
+"/Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/layout.js", "JavaScript", 18, 0, 0, 0, 4, 22
+"/Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/components/seo.js", "JavaScript", 76, 0, 0, 6, 8, 90
+"/Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/pages/404.js", "JavaScript", 11, 0, 0, 0, 4, 15
+"/Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/pages/about.js", "JavaScript", 10, 0, 0, 0, 5, 15
+"/Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/pages/contact.js", "JavaScript", 10, 0, 0, 0, 5, 15
+"/Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/pages/gallery.js", "JavaScript", 10, 0, 0, 0, 5, 15
+"/Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/pages/index.js", "JavaScript", 11, 0, 0, 0, 3, 14
+"/Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/pages/using-ssr.js", "JavaScript", 50, 0, 0, 0, 5, 55
+"/Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/pages/using-typescript.tsx", "TypeScript React", 0, 0, 49, 1, 6, 56
+"/Volumes/Crucial SSD/Dev2/gatsby-gallery-website-v1/src/templates/using-dsg.js", "JavaScript", 22, 0, 0, 0, 4, 26
+"Total", "-", 512, 81, 49, 8, 100, 750

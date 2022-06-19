@@ -6,7 +6,6 @@ import {
     MobileIcon,
     Nav,
     NavbarContainer,
-    NavIcon,
     NavLogo,
     NavMenu,
     NavItem,
@@ -36,11 +35,12 @@ const Navbar = () => {
         <>
             <IconContext.Provider value={{ 
                 color: "#141414"}}>
+                    
                 <Nav active={scroll} click={click}>
                     <NavbarContainer>
                         <NavLogo to="/">
-                            <NavIcon />
-                            MOBA
+                            {/* <NavIcon /> */}
+                            Maeve O'Byrne Art
                         </NavLogo>
                         <MobileIcon onClick={handleClick}>
                             {click ? <FaTimes /> : <FaBars />}
