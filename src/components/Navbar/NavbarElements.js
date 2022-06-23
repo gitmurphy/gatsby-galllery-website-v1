@@ -3,10 +3,12 @@ import styled from "styled-components"
 import {Link} from "gatsby"
 
 export const Nav = styled.nav`
-    background: ${({active}) => 
-    active 
-    ? "#fff" 
-    : "linear-gradient (to bottom, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 100% )"};
+
+    // removed styling for nav that changes from transparent to white because i couldnt figure out
+    // how to change the font-color at the same time - maybe i should just add some white shading to 
+    // the top of the image ?
+
+    background-color: #fff;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -15,11 +17,6 @@ export const Nav = styled.nav`
     position: sticky;
     top: 0;
     z-index: 999;
-
-    @media screen and (max-width: 960px) {
-        background: ${({click}) => click ? "#fff" : "transparent"};
-        transition: 0.8s all ease;
-    }
 `
 export const NavbarContainer = styled.div`
     display: flex;
@@ -30,13 +27,19 @@ export const NavbarContainer = styled.div`
     max-width: 1000px;
 `
 export const NavLogo = styled(Link)`
-    color: #141414;
     justify-self: flex-start;
     cursor: pointer;
     text-decoration: none;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
+    margin-left: 5%;
+
+    &:hover { 
+        color: #DDDDDE;
+        transition: all 0.3s ease;
+    }
+    
 `
 export const NavIcon = styled(DiScala)`
     margin: 0 0.5rem 0 2rem; 
@@ -59,6 +62,7 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
+    
 
     @media screen and (max-width: 960px) {
 		display: flex;
@@ -74,6 +78,10 @@ export const NavMenu = styled.ul`
 `
 export const NavItem = styled.li`
     height: 80px;
+    a:hover { 
+        color: #DDDDDE;
+        transition: all 0.3s ease;
+    } 
 
     @media screen and (max-width: 960px) {
         width: 100%;
@@ -81,12 +89,13 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled(Link)`
-    color: #141414;
+    color: #000000;
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
+    font-size: 1.3 rem;
 
     @media screen and (max-width: 960px) {
         text-align: center;

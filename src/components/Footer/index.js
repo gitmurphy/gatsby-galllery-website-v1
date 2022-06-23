@@ -1,41 +1,53 @@
 import React from "react";
-import { 
-    FaFacebook, 
-    FaInstagram, 
-} from "react-icons/fa"
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons"
+import {
+    NavItem,
+    NavLinks,
+    NavMenu,
+} from "../Navbar/NavbarElements"
 import { 
     FooterContainer,
-    SocialMedia,
-    SocialMediaWrap,
-    WebsiteRights,
+    RightsContainer,
     SocialIcons,
-    SocialIconLink,
+    WebsiteRights,
 } from "./FooterElements";
 
 const Footer = () => {
     return (
-        <FooterContainer>
-            <SocialMedia>
-                <SocialMediaWrap>
+        <>
+        <FooterContainer> 
+                <NavMenu>
+                    <NavItem>
+                        <NavLinks to="/">Home</NavLinks>
+                    </NavItem>
+                    <NavItem>
+                        <NavLinks to="/gallery">Gallery</NavLinks>
+                    </NavItem>     
+                    <NavItem>
+                        <NavLinks to="/about">About</NavLinks>
+                    </NavItem>
+                    <NavItem>
+                        <NavLinks to="/contact">Contact</NavLinks>
+                    </NavItem>  
+                </NavMenu>
 
-                    <WebsiteRights>
-                        Maeve O'Byrne Art © Copyright {new Date().getFullYear()}
-                    </WebsiteRights>
+                <SocialIcons>
+                    <FontAwesomeIcon icon={faInstagram} size="2x"/>
+                    <FontAwesomeIcon icon={faFacebook} size="2x"/>
+                </SocialIcons>
 
-                    <SocialIcons style={{color:"#FFFFFF"}}>
-                        <SocialIconLink href="/https://www.facebook.com" target="_blank"
-                        area-label="Facebook"></SocialIconLink>
-                        <FaFacebook />
-                        <SocialIconLink href="/" target="_blank"
-                        area-label="Instagram"></SocialIconLink>
-                        <FaInstagram />
-                    </SocialIcons>
-                    
-                </SocialMediaWrap>
-            </SocialMedia>
         </FooterContainer>
+
+        <RightsContainer>
+        <WebsiteRights>
+            Maeve O'Byrne © {new Date().getFullYear()}
+        </WebsiteRights>
+        </RightsContainer>
+
+    </>
     )
 }
 
 export default Footer
+

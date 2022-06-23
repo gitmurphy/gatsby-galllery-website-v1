@@ -1,9 +1,8 @@
-import { DiScala } from "react-icons/Di"
 import styled from "styled-components"
-import { Link } from "gatsby"
+import {Link} from "gatsby"
 
 export const FooterContainer = styled.div`
-background-color: #101522;
+background-color: #DDDDDE;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -28,48 +27,33 @@ export const SocialMediaWrap = styled.div`
         flex-direction: column;
     }
 `
-
 export const SocialLogo = styled(Link)`
-    color:#fff;
+    color:#000000;
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 4rem;
     display: flex;
     align-items: center;
     margin-bottom: 16px;
-`
-export const SocialIcon = styled(DiScala)`
-    margin-right: 10px;
-    color: white;
+    height: 30px;
 `
 
 export const WebsiteRights = styled.small`
-    color: #fff;
-    margin-bottom: 16px;
+    color:#DDDDDE;
+    /* margin-bottom: 16px; */
+    font-size: 20px;
+    width: 100%;
+`
+export const RightsContainer = styled.div`
+    background-color: #707070;
+    text-align: center;
+    height: 40px;
 `
 
 export const SocialIcons = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 240px;
+    width: 100px;
 `
-
-export const SocialIconLink = styled.a`
-    color: #fff;
-    font-size: 24px;
-` 
-
-export const FooterContact = styled.div`
-    color: #fff;
-    font-size: 18px;
-    margin-left: 30px;
-    
-
-    >ul {
-        list-style: none;
-        display: inline-block;
-        position: relative;
-    }
-` 

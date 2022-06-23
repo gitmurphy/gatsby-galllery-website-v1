@@ -13,7 +13,6 @@ export const Button = styled.button`
     outline: none;
     border: none;
     cursor: pointer;
-    font-family: "Ubuntu", sans-serif;
 
     &:hover {
         transition: all 0.3s ease-out;
