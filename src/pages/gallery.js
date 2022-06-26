@@ -1,14 +1,12 @@
 import * as React from "react"
+import GallerySection from "../components/GallerySection"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const Gallery = () => (
   <Layout>
     <Seo title="Gallery" />
-
-    <h1>Gallery Page</h1>
-
+    <GallerySection />
   </Layout>
 )
-
 export default Gallery
