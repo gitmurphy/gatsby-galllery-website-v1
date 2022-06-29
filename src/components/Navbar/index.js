@@ -53,9 +53,6 @@ const Navbar = () => {
                             <NavItem>
                                 <NavLinks to="/contact">Contact</NavLinks>
                             </NavItem>
-                            <NavItem>
-                                <NavLinks to="/test">Test</NavLinks>
-                            </NavItem>    
                         </NavMenu>
                     </NavbarContainer>
                 </Nav>

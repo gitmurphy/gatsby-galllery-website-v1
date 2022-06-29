@@ -1,4 +1,3 @@
-import {DiScala} from "react-icons/Di"
 import styled from "styled-components"
 import {Link} from "gatsby"
 
@@ -37,9 +36,6 @@ export const NavLogo = styled(Link)`
         transition: all 0.3s ease;
     }
     
-`
-export const NavIcon = styled(DiScala)`
-    margin: 0 0.5rem 0 2rem; 
 `
 export const MobileIcon = styled.div`
 	display: none;
