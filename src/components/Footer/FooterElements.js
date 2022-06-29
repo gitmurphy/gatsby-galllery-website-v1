@@ -2,12 +2,12 @@ import styled from "styled-components"
 import {Link} from "gatsby"
 
 export const FooterContainer = styled.div`
-background-color: #DDDDDE;
+background-color: #5497FC;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-height: 200px;
+height: 150px;
 `
 
 export const SocialMedia = styled.section`
@@ -37,18 +37,6 @@ export const SocialLogo = styled(Link)`
     align-items: center;
     margin-bottom: 16px;
     height: 30px;
-`
-
-export const WebsiteRights = styled.small`
-    color:#DDDDDE;
-    /* margin-bottom: 16px; */
-    font-size: 20px;
-    width: 100%;
-`
-export const RightsContainer = styled.div`
-    background-color: #707070;
-    text-align: center;
-    height: 40px;
 `
 
 export const SocialIcons = styled.div`

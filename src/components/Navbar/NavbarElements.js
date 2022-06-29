@@ -24,7 +24,9 @@ export const NavbarContainer = styled.div`
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1000px;
+    //max-width: 1000px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    padding-right: 5%;
 `
 export const NavLogo = styled(Link)`
     justify-self: flex-start;

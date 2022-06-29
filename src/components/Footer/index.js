@@ -8,9 +8,7 @@ import {
 } from "../Navbar/NavbarElements"
 import { 
     FooterContainer,
-    RightsContainer,
     SocialIcons,
-    WebsiteRights,
 } from "./FooterElements";
 
 const Footer = () => {
@@ -38,13 +36,6 @@ const Footer = () => {
                 </SocialIcons>
 
         </FooterContainer>
-
-        <RightsContainer>
-        <WebsiteRights>
-            Maeve O'Byrne © {new Date().getFullYear()}
-        </WebsiteRights>
-        </RightsContainer>
-
     </>
     )
 }
