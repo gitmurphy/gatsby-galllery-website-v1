@@ -3,12 +3,7 @@ import styled from "styled-components"
 import {Link} from "gatsby"
 
 export const Nav = styled.nav`
-
-    // removed styling for nav that changes from transparent to white because i couldnt figure out
-    // how to change the font-color at the same time - maybe i should just add some white shading to 
-    // the top of the image ?
-
-    background-color: #fff;
+background-color: #fff;
     height: 80px;
     display: flex;
     justify-content: center;

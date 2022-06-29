@@ -7,7 +7,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-height: 150px;
+height: 180px;
 `
 
 export const SocialMedia = styled.section`

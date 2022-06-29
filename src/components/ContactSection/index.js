@@ -9,7 +9,7 @@ function ContactSection() {
                 <Row>
                     <Col lg={6} md={12}>
                         <h3>Contact Maeve</h3>
-                        <Form>
+                        <Form action="https://formsubmit.co/petermurphy5672@.com" method="POST">
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Label>Email address</Form.Label>
                                 <Form.Control type="email" placeholder="Enter email" />
