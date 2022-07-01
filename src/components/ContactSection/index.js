@@ -15,7 +15,7 @@ function ContactSection() {
 
                             <Form.Group>
                                 {/* spam catcher to make captcha page redunadant */}
-                                <Form.Control type="hidden" style={{display: none}} name="_spamcatch" />
+                                <Form.Control type="hidden" name="_spamcatch" className="d-none"/>
                                 {/* disable captcha page */}
                                 <Form.Control type="hidden" name="_captcha" value="false" />
                             </Form.Group>
