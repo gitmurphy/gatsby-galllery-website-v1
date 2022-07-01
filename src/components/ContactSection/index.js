@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContactSection.css"
-import { Container, Row, Col, Form, Button } from 'react-bootstrap'
+import { Container, Row, Col, Form, Button, FormGroup } from 'react-bootstrap'
 
 function ContactSection() {
     return (
@@ -12,11 +12,13 @@ function ContactSection() {
                         <h3>Contact Maeve</h3>
 
                         <Form action="https://formsubmit.co/9f12ce04bd28862e84393f57d926867a" method="POST">
-                            
-                            {/* spam catcher to make captcha page redunadant */}
-                            <Form.Control type="hidden" style="display: none;" name="_spamcatch" />
-                            {/* disable captcha page */}
-                            <Form.Control type="hidden" name="_captcha" value="false" />
+
+                            <Form.Group>
+                                {/* spam catcher to make captcha page redunadant */}
+                                <Form.Control type="hidden" style={{display: none}} name="_spamcatch" />
+                                {/* disable captcha page */}
+                                <Form.Control type="hidden" name="_captcha" value="false" />
+                            </Form.Group>
 
                             <Form.Group className="mb-3" controlId="formFirstName">
                                 <Form.Label>First Name</Form.Label>
@@ -27,7 +29,7 @@ function ContactSection() {
 
                             <Form.Group className="mb-3" controlId="formLastName">
                                 <Form.Label>Last Name</Form.Label>
-                                <Form.Control type="text" placeholder="your last name" name="Last Name"/>
+                                <Form.Control type="text" placeholder="your last name" name="Last Name" />
                                 <Form.Text className="text-muted">
                                 </Form.Text>
                             </Form.Group>
