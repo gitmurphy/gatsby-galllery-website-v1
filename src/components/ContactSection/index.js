@@ -19,7 +19,7 @@ function ContactSection() {
                                 {/* disable captcha page */}
                                 <Form.Control type="hidden" name="_captcha" value="false" />
                                 {/* enable success page */}
-                                <Form.Control type="hidden" name="_next" value="https://maeveobyrne.com/contact-success.js" />
+                                <Form.Control type="hidden" name="_next" value="/contact-success" />
                             </Form.Group>
 
                             <Form.Group className="mb-3" controlId="formFirstName">
