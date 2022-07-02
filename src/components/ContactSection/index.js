@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContactSection.css"
-import { Container, Row, Col, Form, Button, FormGroup } from 'react-bootstrap'
+import { Container, Row, Col, Form, Button } from 'react-bootstrap'
 
 function ContactSection() {
     return (
