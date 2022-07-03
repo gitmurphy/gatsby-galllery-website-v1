@@ -1,3 +1,16 @@
 .about-container {
     background-color: #E3FFFF;
 }
+
+.mission-container {
+    color: #0E6EFC;
+}
+
+.biography-container > p {
+    font-size: 1.2rem;
+}
+
+.biography-container > img {
+    max-width: 100%;
+    height: auto;
+}

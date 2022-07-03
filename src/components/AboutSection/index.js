@@ -1,28 +1,23 @@
 import React from "react";
-import "./AboutSection.css"
-import { Container, Row, Col } from 'react-bootstrap'
-import Maeve from "./maeve_in_the_studio.png"
-
+import "./AboutSection.css";
+import { Container, Row, Col } from 'react-bootstrap';
+import Maeve from "./maeve_profile.jpg";
 
 function AboutSection() {
     return (
         <div className="about-container">
             <Container>
-                <Row className="mission-row">
-                    <Col className="mission-container">
-                    <h3>Mission Statement</h3>
-                        <p>
-                        Returning to Ireland, having lived and painted abroad for many years, I find myself with a new and 
-                        revitalised vision, I see this island of Ireland through new eyes and my goal is to express Irish 
-                        culture and heritage in a new light. While living in San Francisco and Hawaii, I experienced a strong 
-                        sense of spirituality and feel fortunate to have this new sense about myself. It is this that I want 
-                        to translate into my work here, Ireland being my home, and a country steeped in rich history and culture. 
-                        I find my palette changing and the language I use is colour.
-                        </p>
+                <Row className="mission-row text-center">
+                    <Col className="mission-container p-5">
+                    <h2>
+                        "I am currently living and working in Co. Wexford, I am a member of 
+                        <a href="https://visualartists.ie"> Visual Artists Ireland </a> and I
+                        am collaborating to create a children's book."
+                        </h2>
                     </Col>
                 </Row>  
                 <Row>
-                    <Col lg={6} md={12} className="biography-container">
+                    <Col lg={9} md={12} className="biography-container p-5">
                         <h3>Biography</h3>
                         <p>
                         Maeve O'Byrne is a graduate of Dun Laoghaire College of Art (Painting, Printmaking) now I.A.D.T. 
@@ -36,11 +31,10 @@ function AboutSection() {
                         Her shirts featured on local Hawaiian T.V. and newspapers.
                         </p>
                     </Col>
-                    <Col lg={6} md={12}>
-                        <img src={Maeve} alt="Maeve In The Studio" className="maeve-studio-image"/>
+                    <Col lg={3} md={12}>
+                        <img src={Maeve} alt="Maeve at Van Gogh Exhibition" className="maeve-profile-image p-4 img-fluid"/>
                     </Col>
                 </Row>
-
             </Container>
         </div>
     )
