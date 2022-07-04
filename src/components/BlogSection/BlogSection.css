@@ -5,4 +5,10 @@
 
 .blog-card {
     margin-bottom: 20px;
+    border-width: 0px;
+}
+
+.thumbnail-image {
+    max-width: 100%;
+    height: auto;
 }

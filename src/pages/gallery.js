@@ -17,7 +17,7 @@ const Gallery = ({ data }) => (
       {/* Masonry Gallery Grid */}
       
       <Masonry
-        breakpointCols={3}
+        breakpointCols={2}
         className="my-masonry-grid"
         columnClassName="my-masonry-grid_column">
         {/* array of JSX items */}
