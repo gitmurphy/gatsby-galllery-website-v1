@@ -1,11 +1,15 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { 
+    faFacebook, 
+    faInstagram } from "@fortawesome/free-brands-svg-icons";
+
 import {
     NavItem,
     NavLinks,
     NavMenu,
-} from "../Navbar/NavbarElements"
+} from "../Navbar/NavbarElements";
+
 import { 
     FooterContainer,
     SocialIcons,
