@@ -11,7 +11,7 @@ function ContactSection() {
 
                         <h3>Contact Maeve</h3>
 
-                        <Form action="https://formsubmit.co/maeve@maeveobyrne.com" method="POST">
+                        <Form action="https://formsubmit.co/745f67af9e4923697d917698bde4501a" method="POST">
 
                             <Form.Group>
                                 {/* spam catcher to make captcha page redunadant */}
