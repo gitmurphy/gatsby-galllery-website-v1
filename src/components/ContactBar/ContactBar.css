@@ -1,0 +1,10 @@
+.contact-bar-container {
+    background-color: #0E6EFC;
+    color: #E3FFFF;
+    padding-top:5px;
+    text-align: right;
+}
+
+.email-link {
+    color: #E3FFFF;
+}

@@ -2,18 +2,18 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import "./layout.css"
 import Navbar from "./Navbar"
-import Footer from "./Footer"
-import CopyrightSection from "./CopyrightSection"
+import Foot from "./Foot"
+import ContactBar from "./ContactBar"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Layout = ({ children }) => {
   return (
     <>
+      <ContactBar />
       <Navbar />
       <main>{children}</main>
-      <Footer />
-      <CopyrightSection />
+      <Foot />
     </>
   )
 }
