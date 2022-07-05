@@ -12,10 +12,10 @@ function BlogSection() {
                     <Card.Body>
                         <Card.Header className="text-center border-0">"Lost and Found" A New Collection of Paintings.</Card.Header>
                         <Row>
-                            <Col>
+                            <Col lg={3} md={12}>
                                 <img src={Thumb1} alt="Blog Post 1 Thumbnail" className="thumbnail-image p-4 img-fluid"/>
                             </Col>
-                            <Col>
+                            <Col lg={9} md={12}>
                             <Card.Text className="p-5">
                                 The work in this new collection of paintings 'lost and found', was created during Covid when I found the luxury
                                 of time to do what i love, painting and printmaking. Both my kitchen table and back garden became my studio and
