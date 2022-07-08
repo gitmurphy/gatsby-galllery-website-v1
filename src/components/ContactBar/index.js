@@ -1,6 +1,12 @@
 import React from "react";
+// styles
 import "./ContactBar.css";
-import { Container, Row, Col } from "react-bootstrap";
+// bootstrap components
+import {
+    Container,
+    Row,
+    Col
+} from "react-bootstrap";
 
 function ContactBar() {
     return (
@@ -8,7 +14,7 @@ function ContactBar() {
             <Container>
                 <Row>
                     <Col>
-                    <p><a href="mailto:maeve@maeveobyrne.com" className="email-link">Email: maeve@maeveobyrne.com</a> | Call: +353 87 284 3571</p>
+                        <p><a href="mailto:maeve@maeveobyrne.com" className="email-link">Email: maeve@maeveobyrne.com</a> | Call: +353 87 284 3571</p>
                     </Col>
                 </Row>
             </Container>

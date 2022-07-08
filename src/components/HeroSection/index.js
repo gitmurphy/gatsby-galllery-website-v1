@@ -1,10 +1,11 @@
 import React from "react";
+// styles
 import "./HeroSection.css" 
 
 function HeroSection() {
     return (
+        // div with background image
         <div className="hero-container">
-            <h1>The<br /> Lost and Found< br/>Collection</h1>
         </div>
     )
 }

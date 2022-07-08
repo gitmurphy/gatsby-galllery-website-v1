@@ -11,3 +11,8 @@
 .copyright-row {
     color: #E3FFFF;
 }
+
+.email-link,
+.phone-link {
+    color: #FFF;
+}

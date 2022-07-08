@@ -1,8 +1,16 @@
 import React from "react";
+// styles
 import "./BlogSection.css"
-import { Container, Card, Row, Col } from 'react-bootstrap'
-import Thumb1 from "./images/lost_and_found_thumbnail.png";
-import Thumb2 from "./images/maeve_examiner_article.png";
+// image routes
+import LAF from "./images/lost_and_found_thumbnail.png";
+import Examiner from "./images/maeve_examiner_article.png";
+// bootstrap components
+import { 
+    Container, 
+    Card, 
+    Row, 
+    Col 
+} from 'react-bootstrap'
 
 function BlogSection() {
     return (
@@ -13,12 +21,12 @@ function BlogSection() {
                         <Card.Header className="text-center border-0">"Lost and Found" A New Collection of Paintings.</Card.Header>
                         <Row>
                             <Col lg={3} md={12}>
-                                <img src={Thumb1} alt="Blog Post 1 Thumbnail" className="thumbnail-image p-4 img-fluid"/>
+                                <img src={LAF} alt="Blog Post 1 Thumbnail" className="thumbnail-image p-4 img-fluid"/>
                             </Col>
                             <Col lg={9} md={12}>
                             <Card.Text className="p-5">
                                 The work in this new collection of paintings 'lost and found', was created during Covid when I found the luxury
-                                of time to do what i love, painting and printmaking. Both my kitchen table and back garden became my studio and
+                                of time to do what I love, painting and printmaking. Both my kitchen table and back garden became my studio and
                                 these 14 paintings emerged as a visual diary of sorts, of the places I have lived and worked over the past decade.
                                 <br /><br />
                                 Annual journeys to Agrigento in Sicily have played a major part in my changing palette as the harsh sunlight and
@@ -38,7 +46,7 @@ function BlogSection() {
                         <Card.Header className="text-center border-0">"Meave's mana from Hawaii" An article written in the Irish Examiner by Des O'Sullivan</Card.Header>
                         <Row>
                             <Col lg={3} md={12}>
-                                <img src={Thumb2} alt="Maeves mana from Hawaii" className="examiner_page p-4 img-fluid"/>
+                                <img src={Examiner} alt="Maeves mana from Hawaii" className="examiner_page p-4 img-fluid"/>
                             </Col>
                             <Col lg={9} md={12}>
                             <Card.Text className="p-5">
@@ -49,12 +57,12 @@ function BlogSection() {
                                 to see these as yet unpainted landscapes later on this year at the Vangard in Macroom, where she has previously shown. 
                                 For now Maeve O'Byrne has brought mana to Cork. Her show, Mana in Cork, borrows the Polynesian word 'mana', meaning 
                                 spiritual or energy, for its title.<br />These are vivid, colourful works. O'Byrne is a colourist who produces pictures that, 
-                                above all, are vibrant . She is passionate about her work but this artist does not like work that traumatises or pictures 
+                                above all, are vibrant. She is passionate about her work but this artist does not like work that traumatises or pictures 
                                 that get in your face. She also has to live by her art, and this is a perpetual challenge that she has risen to in all 
                                 sorts of places.<br />Maeve O'Byrne is an artist and a worker. She treats her career exactly like any other job and puts in at 
                                 least a 40 hour week most weeks which is why it is perfectly reasonable to speculate that pictures now forming in her head 
                                 will actually be on the walls of a gallery within months. She produces her own paintings or she works on commissions, 
-                                striving to achieve what the client wants and at the same ti.me producing a work of art. She has been successful. She has 
+                                striving to achieve what the client wants and at the same time producing a work of art. She has been successful. She has 
                                 been selling work for 15 years. When she left art college at Dun Laoghaire Maeve O'Byrne would charge £60 for a picture. 
                                 Most of the work now on show at the Bodega, which. has generously sponsored this exhibition, sells for around the £300 mark.<br /> 
                                 She left Dun Laoghaire armed with a Beit Foundation Award. It is only given out to one student in every five years and is 

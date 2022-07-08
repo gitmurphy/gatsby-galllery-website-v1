@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import { FaBars, FaTimes} from "react-icons/fa"
-
-import { 
+// icons
+import { FaBars, FaTimes } from "react-icons/fa"
+// bootstrap components
+import {
     MobileIcon,
     Nav,
     NavbarContainer,
@@ -31,34 +32,34 @@ const Navbar = () => {
     }, [])
 
     return (
-        <>    
-                <Nav active={scroll} click={click}>
-                    <NavbarContainer>
-                        <NavLogo to="/">
-                            Maeve O'Byrne
-                        </NavLogo>
-                        <MobileIcon onClick={handleClick}>
-                            {click ? <FaTimes /> : <FaBars />}
-                        </MobileIcon>
-                        <NavMenu onClick={handleClick} click={click}>
-                            <NavItem>
-                                <NavLinks to="/">Home</NavLinks>
-                            </NavItem>
-                            <NavItem>
-                                <NavLinks to="/about">About</NavLinks>
-                            </NavItem>
-                            <NavItem>
-                                <NavLinks to="/gallery">Gallery</NavLinks>
-                            </NavItem>     
-                            <NavItem>
-                                <NavLinks to="/blog">Blog</NavLinks>
-                            </NavItem>
-                            <NavItem>
-                                <NavLinks to="/contact">Contact</NavLinks>
-                            </NavItem>
-                        </NavMenu>
-                    </NavbarContainer>
-                </Nav>
+        <>
+            <Nav active={scroll} click={click}>
+                <NavbarContainer>
+                    <NavLogo to="/">
+                        Maeve O'Byrne
+                    </NavLogo>
+                    <MobileIcon onClick={handleClick}>
+                        {click ? <FaTimes /> : <FaBars />}
+                    </MobileIcon>
+                    <NavMenu onClick={handleClick} click={click}>
+                        <NavItem>
+                            <NavLinks to="/">Home</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="/about">About</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="/gallery">Gallery</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="/blog">Blog</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="/contact">Contact</NavLinks>
+                        </NavItem>
+                    </NavMenu>
+                </NavbarContainer>
+            </Nav>
         </>
     )
 }

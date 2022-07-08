@@ -1,11 +1,12 @@
 import * as React from "react"
 import PropTypes from "prop-types"
+// styles
 import "./layout.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
+// react components
 import Navbar from "./Navbar"
 import Foot from "./Foot"
 import ContactBar from "./ContactBar"
-
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Layout = ({ children }) => {
   return (
