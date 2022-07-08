@@ -1,0 +1,22 @@
+.lafg-container {
+    background-color: #E3FFFF;
+    padding-top: 50px;
+}
+
+#sicily-collapse-details,
+#days-collapse-details,
+#flowers-collapse-details {
+    margin-top: 20px;
+}
+
+.card {
+    margin-bottom: 50px;
+}
+
+.days-image {
+    height: 950px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
