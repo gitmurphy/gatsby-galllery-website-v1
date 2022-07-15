@@ -14,7 +14,7 @@ function ContactBar() {
             <Container>
                 <Row>
                     <Col>
-                        <p><a href="mailto:maeve@maeveobyrne.com" className="email-link">Email: maeve@maeveobyrne.com</a> | Call: +353 87 284 3571</p>
+                        <p>Email: <a href="mailto:maeve@maeveobyrne.com" className="email-link">maeve@maeveobyrne.com</a> | Call: +353 87 284 3571</p>
                     </Col>
                 </Row>
             </Container>

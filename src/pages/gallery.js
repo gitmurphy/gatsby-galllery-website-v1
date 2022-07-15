@@ -1,12 +1,12 @@
-import * as React from "react"
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import * as React from "react";
+import Layout from "../components/layout";
+import Seo from "../components/seo";
 
 import Masonry from "react-masonry-css";
 import { graphql } from "gatsby";
-import { GatsbyImage } from "gatsby-plugin-image"
+import { GatsbyImage } from "gatsby-plugin-image";
 import { Container } from "react-bootstrap";
-import "./gallery-masonry.css"
+import "./gallery-masonry.css";
 
 const Gallery = ({ data }) => (
 

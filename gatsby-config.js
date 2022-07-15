@@ -6,6 +6,7 @@ module.exports = {
     author: `Peter Murphy`,
   },
   plugins: [
+    `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
@@ -13,6 +14,13 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `paintings`,
+        path: `${__dirname}/src/paintings`,
       },
     },
     {
