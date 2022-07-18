@@ -6,8 +6,10 @@ module.exports = {
     author: `Peter Murphy`,
   },
   plugins: [
+    //parse markdown files to graphql readable
     `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
+    //optime images for screen-size/ lazy-loading/ blur-on-load
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -38,5 +40,6 @@ module.exports = {
     `gatsby-plugin-typescript`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-netlify-cms`,
   ],
 }
