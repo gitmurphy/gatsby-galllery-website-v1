@@ -6,23 +6,22 @@ module.exports = {
     author: `Peter Murphy`,
   },
   plugins: [
-    //parse markdown files to graphql readable
-    `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
     //optime images for screen-size/ lazy-loading/ blur-on-load
     `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `gallery`,
+        path: `${__dirname}/src/gallery/`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `paintings`,
-        path: `${__dirname}/src/paintings`,
+        name: `images`,
+        path: `${__dirname}/src/images`,
       },
     },
     {
@@ -39,7 +38,11 @@ module.exports = {
     },
     `gatsby-plugin-typescript`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-mdx`,
+    // //parse markdown files to graphql readable
+    // `gatsby-transformer-remark`,
+    // //parse images in markdown files to graphql readable
+    // `gatsby-remark-images`,
   ],
 }
