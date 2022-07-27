@@ -7,6 +7,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { Container, Row, Col, Table } from "react-bootstrap"
 
 const PaintingPage = ({ data }) => {
+  
   const image = getImage(data.mdx.frontmatter.hero_image)
   return (
     <Layout>

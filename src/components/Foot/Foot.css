@@ -4,8 +4,11 @@
     padding-top: 1rem;
 }
 
-.vai-img {
+.foot-logo {
     border: 2px solid #FFF;
+    height: 100px;
+    width: 100px;
+    margin: 15px;
 }
 
 .copyright-row {
