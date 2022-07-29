@@ -9,6 +9,10 @@ import { Container, Row, Col, Table } from "react-bootstrap"
 const PaintingPage = ({ data }) => {
   
   const image = getImage(data.mdx.frontmatter.hero_image)
+  let media = data.mdx.frontmatter.media
+  if(media == null){
+    media = "Acrylic"
+  }
   return (
     <Layout>
       <Seo title="Painting" />
@@ -31,7 +35,7 @@ const PaintingPage = ({ data }) => {
                                     </tr>
                                     <tr>
                                         <td>Media</td>
-                                        <td>{data.mdx.frontmatter.media}</td>
+                                        <td>{media}</td>
                                     </tr>
                                     <tr>
                                         <td>Status</td>

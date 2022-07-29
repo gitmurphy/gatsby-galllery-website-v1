@@ -13,10 +13,15 @@ import "./style/gallery-masonry.css"
 const GalleryPage = ({ data }) => {
 
   const breakpointColumnsObj = {
-    default: 3,
-    1100: 3,
-    700: 2,
-    500: 1
+    default: 4,
+    //for large displays
+    1200: 6,
+    //for laptops
+    750: 4,
+    //for tablets
+    600: 3,
+    //for phones
+    576: 2
   };
 
   return (
@@ -31,7 +36,7 @@ const GalleryPage = ({ data }) => {
         >
           {/* array of JSX items */}
           {data.allMdx.edges.map(({ node }) => (
-            <div key={node.id} className="py-2">
+            <div key={node.id} className="py-1">
               <Link to={node.slug}>
                 <GatsbyImage
                   image={
