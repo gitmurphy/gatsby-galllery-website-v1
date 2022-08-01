@@ -2,7 +2,7 @@ import React from "react";
 // styles
 import "./BlogSection.css"
 // image routes
-import LAF from "./images/lost_and_found_thumbnail.png";
+import LAF from "./images/lost_and_found_thumb.jpg";
 import Examiner from "./images/maeve_examiner_article.png";
 // bootstrap components
 import { 
