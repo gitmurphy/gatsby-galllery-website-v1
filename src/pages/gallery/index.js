@@ -15,11 +15,11 @@ const GalleryPage = ({ data }) => {
   const breakpointColumnsObj = {
     default: 4,
     //for large displays
-    1200: 6,
+    1200: 5,
     //for laptops
     750: 4,
     //for tablets
-    600: 3,
+    600: 2,
     //for phones
     576: 2
   };

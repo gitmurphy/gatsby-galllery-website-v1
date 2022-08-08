@@ -43,7 +43,7 @@ function BlogSection() {
                 </Card>
                 <Card className="border-0 blog-card shadow">
                     <Card.Body>
-                        <Card.Header className="text-center border-0">"Meave's mana from Hawaii" An article written in the Irish Examiner by Des O'Sullivan</Card.Header>
+                        <Card.Header className="text-center border-0">"Maeve's mana from Hawaii" An article written in the Irish Examiner by Des O'Sullivan</Card.Header>
                         <Row>
                             <Col lg={3} md={12}>
                                 <img src={Examiner} alt="Maeves mana from Hawaii" className="examiner_page p-4 img-fluid"/>

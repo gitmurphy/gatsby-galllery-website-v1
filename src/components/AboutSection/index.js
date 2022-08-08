@@ -108,6 +108,10 @@ function AboutSection() {
                             <Table>
                                 <tbody>
                                     <tr>
+                                        <td>2021</td>
+                                        <td>The Allen Family, Hawaii</td>
+                                    </tr>
+                                    <tr>
                                         <td>2008</td>
                                         <td>RTE 'The Clinic'</td>
                                     </tr>
@@ -133,7 +137,7 @@ function AboutSection() {
                                     </tr>
                                     <tr>
                                         <td></td>
-                                        <td>Dr Brent Shigeioka, Oahu Resident, Hawaii</td>
+                                        <td>Ms. Jennifer Garvey, North Shore Resident, Hawaii</td>
                                     </tr>
                                     <tr>
                                         <td>1995</td>
@@ -142,6 +146,10 @@ function AboutSection() {
                                     <tr>
                                         <td></td>
                                         <td>Dillingham Estates in Mokuleia, Waimea Bay, Hawaii</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Monta Koch, Hawaii</td>
                                     </tr>
                                     <tr>
                                         <td>1993</td>
