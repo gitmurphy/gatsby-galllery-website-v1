@@ -37,9 +37,9 @@ function AboutSection() {
                 <Row className="mission-row text-center">
                     <Col className="mission-container p-5">
                         <h2>
-                            "I am currently living and working in Co. Wexford, I am a member of Visual Artists Ireland and of Artlinks. I
-                            am working on a collaborative children's book series with a textile designer. Our first book is nearly finished, so
-                            thats exciting."
+                            "I am currently living and working in Co. Wexford, I am a member of Visual Artists Ireland and of Artlinks. I have
+                            a new project in the works. An illustrated book that looks at Ireland today. I'm excited and challenged by this new 
+                            genre. I will keep you posted...."
                         </h2>
                     </Col>
                 </Row>
