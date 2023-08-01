@@ -17,7 +17,7 @@ function ContactSection() {
                 <Row>
                     <Col lg={6} md={12}>
                         <h3>Contact Maeve</h3>
-                        <Form action="https://formsubmit.co/745f67af9e4923697d917698bde4501a" method="POST">
+                        <Form action="https://formsubmit.co/maeveobyrne1961@gmail.com" method="POST">
                             <Form.Group>
                                 {/* spam catcher to make captcha page redunadant */}
                                 <Form.Control type="hidden" name="_spamcatch" className="d-none" />

@@ -39,9 +39,9 @@ function Foot() {
             <p>
               Email
               <br />
-              <a href="mailto:maeve@maeveobyrne.com" className="email-link">
+              <a href="mailto:maeveobyrne1961@gmail.com" className="email-link">
                 {" "}
-                maeve@maeveobyrne.com
+                maeveobyrne1961@gmail.com
               </a>
               <br />
               Call
