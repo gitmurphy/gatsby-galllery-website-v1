@@ -215,9 +215,9 @@ function LYLSGallery() {
           <Col lg={6} md={12} className="p-5">
             <Card className="card">
               <Card.Body>
-                <Card.Img variant="top" src={WildAtlantic} />
+                <Card.Img variant="top" src={TurtlesComing} />
                 <Card.Title className="p-2 d-flex justify-content-center">
-                  Wild Atlantic jelly fish
+                  Turtles coming ashore
                 </Card.Title>
               </Card.Body>
             </Card>
@@ -290,22 +290,6 @@ function LYLSGallery() {
                 </Card.Title>
               </Card.Body>
             </Card>
-          </Col>
-        </Row>
-
-        <Row>
-          <Col lg={6} md={12} className="p-5">
-            <Card className="card">
-              <Card.Body>
-                <Card.Img variant="top" src={TurtlesComing} />
-                <Card.Title className="p-2 d-flex justify-content-center">
-                  Turtles coming ashore
-                </Card.Title>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col lg={6} md={12} className="p-5">
-            {/* odd number of paintings in collection */}
           </Col>
         </Row>
 
