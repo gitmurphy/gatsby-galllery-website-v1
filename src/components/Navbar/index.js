@@ -15,6 +15,7 @@ import {
 const Navbar = () => {
     const [click, setClick] = useState(false)
     const [scroll, setScroll] = useState(false)
+    const [isLoaded, setIsLoaded] = useState(false);
 
     const handleClick = () => setClick(!click)
 
@@ -31,10 +32,22 @@ const Navbar = () => {
         window.addEventListener("scroll", changeNav)
     }, [])
 
+    useEffect(() => {
+        const handleLoad = () => {
+            setIsLoaded(true);
+        };
+
+        window.addEventListener('load', handleLoad);
+
+        return () => {
+            window.removeEventListener('load', handleLoad);
+        };
+    }, []);
+
     return (
         <>
             <Nav active={scroll} click={click}>
-                <NavbarContainer>
+                <NavbarContainer loaded={isLoaded}>
                     <NavLogo to="/">
                         Maeve O'Byrne
                     </NavLogo>

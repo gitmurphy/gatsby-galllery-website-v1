@@ -3,7 +3,7 @@ import styled from "styled-components"
 import {Link} from "gatsby"
 
 export const Nav = styled.nav`
-background-color: #fff;
+    background-color: #fff;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -14,6 +14,8 @@ background-color: #fff;
     z-index: 999;
 `
 export const NavbarContainer = styled.div`
+    opacity: ${({ loaded }) => (loaded ? 1 : 0)};
+    transition: opacity 0.5s ease;
     display: flex;
     justify-content: space-between;
     height: 80px;
