@@ -12,6 +12,12 @@ export const Nav = styled.nav`
     position: sticky;
     top: 0;
     z-index: 999;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+    &.fade-in {
+        opacity: 1;
+    }
 `
 export const NavbarContainer = styled.div`
     display: flex;
